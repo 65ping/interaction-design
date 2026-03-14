@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2D2BA8"/>
+      <stop offset="100%" stop-color="#6B21D4"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" rx="108" fill="url(#bg)"/>
+
+  <!-- Subtle inner highlight top -->
+  <rect width="512" height="256" rx="108" fill="white" opacity="0.04"/>
+
+  <!-- Ripple rings at cursor tip -->
+  <circle cx="210" cy="205" r="130" fill="none" stroke="white" stroke-opacity="0.07" stroke-width="12"/>
+  <circle cx="210" cy="205" r="85"  fill="none" stroke="white" stroke-opacity="0.12" stroke-width="11"/>
+  <circle cx="210" cy="205" r="42"  fill="none" stroke="white" stroke-opacity="0.22" stroke-width="9"/>
+
+  <!-- Glow dot at tip -->
+  <circle cx="210" cy="205" r="22" fill="white" opacity="0.18" filter="url(#softglow)"/>
+
+  <!-- Cursor shadow -->
+  <path d="M218,218 L218,393 L254,357 L274,404 L302,391 L282,344 L326,344 Z"
+        fill="black" opacity="0.25" filter="url(#glow)"/>
+
+  <!-- Cursor body, tip at (210, 205) -->
+  <path d="M210,205 L210,385 L246,349 L266,396 L294,383 L274,336 L318,336 Z"
+        fill="white"/>
+
+  <!-- Cursor outline for definition -->
+  <path d="M210,205 L210,385 L246,349 L266,396 L294,383 L274,336 L318,336 Z"
+        fill="none" stroke="rgba(80,60,160,0.35)" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Interaction node — top right -->
+  <circle cx="358" cy="148" r="14" fill="white" opacity="0.55"/>
+  <circle cx="358" cy="148" r="22" fill="none" stroke="white" stroke-opacity="0.2" stroke-width="4"/>
+
+  <!-- Interaction node — bottom right -->
+  <circle cx="374" cy="318" r="10" fill="white" opacity="0.35"/>
+
+  <!-- Connecting lines (dashed) -->
+  <line x1="210" y1="205" x2="348" y2="156" stroke="white" stroke-opacity="0.18" stroke-width="3" stroke-dasharray="6 5"/>
+  <line x1="318" y1="336" x2="366" y2="314" stroke="white" stroke-opacity="0.13" stroke-width="2.5" stroke-dasharray="5 5"/>
+</svg>
