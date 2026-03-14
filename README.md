@@ -2,6 +2,32 @@
 
 A Claude skill for interaction design practitioners -> product designers, UX designers, UI designers, service designers, and interaction designers.
 
+## Install
+
+```bash
+git clone https://github.com/65ping/interaction-design ~/.claude/skills/interaction-design
+```
+
+Or with the GitHub CLI:
+
+```bash
+gh repo clone 65ping/interaction-design ~/.claude/skills/interaction-design
+```
+
+Claude Code picks up skills automatically from `~/.claude/skills/`. No restart needed — the skill is available immediately in any project.
+
+**Update to latest:**
+```bash
+git -C ~/.claude/skills/interaction-design pull
+```
+
+**Uninstall:**
+```bash
+rm -rf ~/.claude/skills/interaction-design
+```
+
+---
+
 ## What It Does
 
 Activate this skill to get hands-on help with:
