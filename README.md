@@ -50,9 +50,9 @@ reference/
 
 ## Sources
 
-- Don Norman, *The Design of Everyday Things* (2013)
+- Don Norman, *The Design of Everyday Things* 
 - Bruce Tognazzini, *First Principles of Interaction Design* (AskTog)
-- Jakob Nielsen, *Usability Engineering* (1993) + NNGroup
-- Dan Saffer, *Microinteractions* (2013)
+- Jakob Nielsen, *Usability Engineering* + NNGroup
+- Dan Saffer, *Microinteractions* 
 - Gillian Crampton Smith / Kevin Silver, *5 Dimensions of IxD* (IDF)
 - NNGroup, *Interaction and Branding* article series
