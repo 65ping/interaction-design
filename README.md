@@ -1,6 +1,6 @@
 # Interaction Design Skill
 
-A Claude skill for interaction design practitioners — product designers, UX designers, UI designers, service designers, and interaction designers.
+A Claude skill for interaction design practitioners -> product designers, UX designers, UI designers, service designers, and interaction designers.
 
 ## What It Does
 
