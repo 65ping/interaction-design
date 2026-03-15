@@ -378,5 +378,3 @@ Low-quality image placeholder (LQIP) → full image loads in
 
 ---
 
-*Sources: Nielsen (1993, 2010), Miller (1968 — the original response time study),
-Card, Moran & Newell (1983), NNGroup.*

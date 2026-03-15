@@ -46,8 +46,7 @@ Tell Claude what you need. Examples:
 
 ## The 5 Dimensions of Interaction Design
 
-Interaction design operates across five materials, defined by Gillian Crampton Smith and
-expanded by Kevin Silver. Every interaction is composed of some combination of these dimensions.
+Interaction design operates across five materials. Every interaction is composed of some combination of these dimensions.
 
 | Dimension | What It Is | Design Questions |
 |---|---|---|
@@ -67,8 +66,7 @@ microcopy that does not match what actually happens.
 
 ### Norman's 6 Fundamentals
 
-Don Norman's principles from *The Design of Everyday Things* remain the most widely applicable
-framework for interaction quality.
+Norman's 6 fundamentals remain the most widely applicable framework for interaction quality.
 
 **Visibility**
 Make the state of the system and available actions visible. Users should not have to guess
@@ -140,7 +138,7 @@ how to interact with it.
 
 ### Tognazzini's 19 Principles
 
-Bruce Tognazzini's principles from AskTog cover the broader system of human-computer interaction.
+The 19 principles cover the broader system of human-computer interaction.
 These are applied principles for practitioners.
 
 **Anticipation**
@@ -312,7 +310,7 @@ and by extension, the brand behind it.
 
 ## Response Time and Feedback Design
 
-### The Three Thresholds (Nielsen)
+### The Three Response Thresholds
 
 | Threshold | Time | User Perception | Design Response |
 |---|---|---|---|
@@ -488,7 +486,7 @@ Micro-interactions are the small, contained interactions that handle a single us
 They are the fabric of an interface — not headline features, but what makes a product
 feel polished and intentional.
 
-**Dan Saffer's framework:**
+**The micro-interaction framework:**
 
 ```
 Trigger → Rules → Feedback → Loops & Modes

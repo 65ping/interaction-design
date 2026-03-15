@@ -7,8 +7,7 @@ with applied examples, violation patterns, and design guidance for practitioners
 
 ## Norman's 6 Fundamentals
 
-From *The Design of Everyday Things* by Don Norman. These principles apply universally
-to any interface — digital, physical, or service.
+These principles apply universally to any interface — digital, physical, or service.
 
 ---
 
@@ -210,7 +209,6 @@ Interaction design is primarily concerned with perceived affordance.
 
 ## Tognazzini's 19 Principles
 
-From Bruce Tognazzini's *First Principles of Interaction Design* at AskTog.
 These expand Norman's fundamentals into a broader operational framework.
 
 ---
@@ -547,4 +545,3 @@ hover, does not show a loading state, does not produce feedback) violates this p
 
 ---
 
-*Last updated: 2026. Sources: Norman (2013), Tognazzini (AskTog), Nielsen Norman Group.*

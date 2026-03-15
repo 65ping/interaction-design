@@ -34,7 +34,7 @@ Activate this skill to get hands-on help with:
 
 - **Interaction flows** — task flows, decision branches, error recovery, exit paths
 - **Component states** — all 10 states (default, hover, focus, active, loading, disabled, error, success, empty, skeleton)
-- **Micro-interactions** — trigger, rules, feedback, loops using Dan Saffer's framework
+- **Micro-interactions** — trigger, rules, feedback, loops and modes
 - **Feedback design** — timing, type, and hierarchy based on Nielsen's response-time thresholds
 - **Motion and transitions** — duration, easing, when to animate and when not to
 - **Affordances and signifiers** — perceived vs actual affordance, drag handles, anti-affordances
@@ -46,11 +46,11 @@ Activate this skill to get hands-on help with:
 ## Principles Covered
 
 - Norman's 6 fundamentals (Visibility, Feedback, Constraints, Mapping, Consistency, Affordance)
-- Tognazzini's 19 principles (AskTog)
+- Tognazzini's 19 principles
 - NNGroup's 8 interactivity attributes
 - Nielsen's 3 response-time thresholds
-- Crampton Smith's 5 dimensions of IxD
-- Dan Saffer's micro-interaction framework
+- The 5 dimensions of IxD
+- The micro-interaction framework (trigger, rules, feedback, loops)
 
 ## Skill Files
 
@@ -74,11 +74,3 @@ reference/
 "I'm a service designer — how do I apply IxD to cross-channel touchpoints?"
 ```
 
-## Sources
-
-- Don Norman, *The Design of Everyday Things* 
-- Bruce Tognazzini, *First Principles of Interaction Design* (AskTog)
-- Jakob Nielsen, *Usability Engineering* + NNGroup
-- Dan Saffer, *Microinteractions* 
-- Gillian Crampton Smith / Kevin Silver, *5 Dimensions of IxD* (IDF)
-- NNGroup, *Interaction and Branding* article series
