@@ -46,7 +46,8 @@ Claude Code will detect the skill automatically. No configuration needed.
 
 ## What It Does
 
-This skill turns Claude into an interaction design practitioner: auditing flows, specifying states, defining timing, and producing handoff-ready documentation. Tell Claude what you're designing and where you're stuck. It adapts to your role, phase, and output needs.
+This skill turns Claude into an interaction design practitioner: auditing flows, specifying states, defining timing, and producing handoff-ready documentation. 
+Tell Claude what you're designing and where you're stuck. It adapts to your role, phase, and output needs.
 
 ```
 "What states does this toggle switch need?"
