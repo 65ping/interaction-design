@@ -46,17 +46,17 @@ Claude Code will detect the skill automatically. No configuration needed.
 
 ## What It Does
 
-This skill turns Claude into an interaction design practitioner — auditing flows, specifying states, defining timing, and producing handoff-ready documentation. Tell Claude what you're designing and where you're stuck — it adapts to your role, phase, and output needs.
+This skill turns Claude into an interaction design practitioner: auditing flows, specifying states, defining timing, and producing handoff-ready documentation. Tell Claude what you're designing and where you're stuck. It adapts to your role, phase, and output needs.
 
 ```
 "What states does this toggle switch need?"
 "Map the interaction flow for a multi-step checkout including all error paths"
 "How long should a loading skeleton show before switching to an error state?"
 "Write an interaction spec for drag-and-drop reordering I can give to engineering"
-"I'm a service designer — how do I apply interaction design across a patient journey?"
+"I'm a service designer. How do I apply interaction design across a patient journey?"
 ```
 
-Claude responds with structured flows, state tables, timing specs, or annotated documentation — grounded in established principles.
+Claude responds with structured flows, state tables, timing specs, or annotated documentation, grounded in established principles.
 
 ---
 
@@ -77,21 +77,21 @@ Claude responds with structured flows, state tables, timing specs, or annotated 
 ## Who It's For
 
 ### 🖥️ Product & UX Designers
-Product designers and UX designers defining how a product behaves end-to-end — from onboarding to error recovery to empty states.
+Product designers and UX designers defining how a product behaves end-to-end, from onboarding to error recovery to empty states.
 
 - Maps full task flows with entry points, decision branches, and exit paths
 - Defines all 10 component states so nothing gets left to developer interpretation
 - Produces interaction specifications formatted for engineering handoff
 
 ### 🎨 UI & Visual Designers
-UI designers specifying the detail layer — component behaviour, motion, timing, and micro-interactions — that separates good interfaces from great ones.
+UI designers specifying the detail layer: component behaviour, motion, timing, and micro-interactions that separate good interfaces from great ones.
 
 - Specifies animation duration, easing curves, and motion intent
 - Documents micro-interactions using the trigger → rules → feedback → loops framework
 - Flags affordance and signifier gaps before they become usability failures
 
 ### 🔄 Service & Systems Designers
-Service designers and systems thinkers applying interaction design principles across touchpoints — digital, physical, and in-person.
+Service designers and systems thinkers applying interaction design principles across touchpoints: digital, physical, and in-person.
 
 - Adapts interaction design principles to cross-channel journeys
 - Identifies where experience breaks down between touchpoints
@@ -109,9 +109,9 @@ interaction-design/
 │   ├── Norman's 6 Fundamentals       ← Visibility, feedback, constraints, mapping, consistency, affordance
 │   ├── Tognazzini's 19 Principles    ← Anticipation, autonomy, defaults, efficiency, and more
 │   ├── Component states (all 10)     ← Default, hover, focus, active, loading, disabled, error, success, empty, skeleton
-│   ├── Response-time thresholds      ← ≤100ms, ≤1s, ≤10s — and what to show at each
+│   ├── Response-time thresholds      ← ≤100ms, ≤1s, ≤10s, with guidance on what to show at each
 │   ├── Micro-interaction framework   ← Trigger, rules, feedback, loops and modes
-│   ├── Motion & transitions          ← Duration, easing, when to animate and when not to
+│   ├── Motion and transitions        ← Duration, easing, when to animate and when not to
 │   ├── Role-specific guidance        ← Product / UX / UI / service designer paths
 │   └── Anti-patterns                 ← Common interaction failures organised by dimension
 │
@@ -129,7 +129,7 @@ The most effective way to use this skill is to describe what you're designing an
 
 ---
 
-### Simple — Single principle or state lookup
+### Simple: Single principle or state lookup
 
 **Get all component states:**
 ```
@@ -161,12 +161,12 @@ We're designing a confirmation dialog on mobile.
 
 ---
 
-### Intermediate — Flow or pattern design
+### Intermediate: Flow or pattern design
 
 **Map a complete flow:**
 ```
 I'm designing a password reset flow.
-Map the full interaction — every state, every branch,
+Map the full interaction: every state, every branch,
 every error condition, and the success path.
 ```
 → Claude returns an annotated flow with every state labelled, error paths documented, and re-entry points called out.
@@ -183,7 +183,7 @@ first-time setup without overwhelming them?
 **Audit for interaction problems:**
 ```
 Here's our checkout flow: [paste flow or describe steps].
-Flag every interaction anti-pattern you can find —
+Flag every interaction anti-pattern you can find.
 I'm especially worried about error recovery and feedback timing.
 ```
 → Claude runs the flow against Norman's fundamentals and the five dimensions, returns ranked issues with severity, and suggests specific fixes.
@@ -198,22 +198,22 @@ Include trigger, rules, feedback, and loop behaviour.
 
 ---
 
-### Complex — Full specification or cross-system design
+### Complex: Full specification or cross-system design
 
 **Full flow spec for engineering handoff:**
 ```
 I'm redesigning the money transfer flow in a mobile banking app.
-Map the complete interaction — every step, edge case, error state,
+Map the complete interaction: every step, edge case, error state,
 empty state, loading moment, and success feedback.
 Format the output as an interaction spec I can hand
 directly to my engineering team.
 ```
-→ Claude returns a structured spec with flows, state tables, feedback timing, error recovery paths, and copy guidance — formatted for developer handoff without ambiguity.
+→ Claude returns a structured spec with flows, state tables, feedback timing, error recovery paths, and copy guidance, formatted for developer handoff without ambiguity.
 
 **Component state system for a design system:**
 ```
 We're building a design system for a healthcare platform.
-Define the full interaction behaviour for our form components —
+Define the full interaction behaviour for our form components:
 text input, dropdown, date picker, and file upload.
 Include all states, transitions, error handling,
 and accessibility behaviour for each.
@@ -225,7 +225,7 @@ and accessibility behaviour for each.
 I'm a service designer working on a hospital patient journey
 that spans a mobile app, a check-in kiosk, and an in-person
 consultation with a nurse. Apply interaction design principles
-across all three touchpoints — where do the principles hold,
+across all three touchpoints. Where do the principles hold,
 where do they break down, and where is the experience
 most likely to fail between channels?
 ```
@@ -247,9 +247,9 @@ and what can we defer safely?
 
 Every interaction design decision balances three questions:
 
-- **Behaviour** — Does the system respond the way the user predicts it will?
-- **Feedback** — Does the user know what happened, what's happening, and what to do next?
-- **Timing** — Does that feedback arrive at the moment it's needed — not too early, not too late?
+- **Behaviour:** Does the system respond the way the user predicts it will?
+- **Feedback:** Does the user know what happened, what's happening, and what to do next?
+- **Timing:** Does that feedback arrive at the moment it's needed, not too early and not too late?
 
 When all three align, the interaction disappears. The user just gets things done.
 
