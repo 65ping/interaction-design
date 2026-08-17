@@ -7,19 +7,11 @@
 ```
 
 # Interaction Design
-### A Claude Code Skill
 
 **Principled interaction design, from behaviour mapping to engineering handoff.**
 Built for product designers, UX designers, UI designers, service designers, and interaction designers.
 
-<br/>
 
-[![Version](https://img.shields.io/badge/version-1.0.0-0a0a0a?style=flat-square&labelColor=f5f0e8)](https://github.com/65ping/interaction-design-skill)
-[![Dimensions](https://img.shields.io/badge/dimensions-5-0a0a0a?style=flat-square&labelColor=f5f0e8)](https://github.com/65ping/interaction-design-skill/blob/main/SKILL.md)
-[![Principles](https://img.shields.io/badge/principles-19-0a0a0a?style=flat-square&labelColor=f5f0e8)](https://github.com/65ping/interaction-design-skill/blob/main/SKILL.md)
-[![Claude Code](https://img.shields.io/badge/Claude_Code-skill-0a0a0a?style=flat-square&labelColor=f5f0e8)](https://claude.ai/claude-code)
-
-<br/>
 
 </div>
 
