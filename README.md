@@ -246,10 +246,4 @@ Every interaction design decision balances three questions:
 
 When all three align, the interaction disappears. The user just gets things done.
 
----
 
-<div align="center">
-
-Built as a [Claude Code](https://claude.ai/claude-code) skill · v1.0.0
-
-</div>
